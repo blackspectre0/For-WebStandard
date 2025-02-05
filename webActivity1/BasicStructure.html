@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .id2{
+            color:red;
+            font-size:20px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title>
 </head>
 <body>
+    <!--Box Model-->
+    <div class="box">
     <h1>Welcome to HTML!</h1>
     <p>This is a simple webpage.</p>
 
+    <!--Inline CSS (Inside the HTML tag) & Element Selector-->
+    <p style="color:blue; font-size:18px;">This is a inline CSS.</p>
+
+    <!--Internal CSS & Class Selector-->
+    <p class="id2">This is a Internal CSS.</p>
+    <p class="id2">This text is red.</p>
+
+    <!--External CSS & ID Selector-->
+    <p id="id1">This is a External CSS.</p>
+    <h1 id="id1">Hello, CSS!</h1>
+    </div>
+    
+    
 </body>
 </html>

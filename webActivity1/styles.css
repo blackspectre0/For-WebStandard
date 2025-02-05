@@ -1,0 +1,50 @@
+/*Add CSS to HTML*/
+
+#id1 {color:green; font-size:22px;}
+
+/*Group Selector*/
+
+h1, p{ color: darkgreen;}
+
+/*Common CSS Properties*/
+
+/*Text Styling*/
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align:center;
+    
+    /*Background Styling*/
+    background-color:lightblue;
+    background-image: url('');
+    background-size: cover;
+}
+
+/*Box Model*/
+div{
+    width:200px;
+    height: 100px;
+    padding:10px;
+    margin: 20px;
+    border:2px solid black;;
+
+    /*Display Property*/
+    display:inline-block
+}
+/*Layout with CSS*/
+
+/*Positioning*/
+.box{
+    position: absolute;
+    top: 50px;
+    left:100px;
+}
+
+/*Responsive Design with Media Queries*/
+
+@media (max-width:600px) {
+    body{
+        background-color: yellow;
+    }
+}
